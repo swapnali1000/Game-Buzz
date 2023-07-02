@@ -14,7 +14,12 @@
     margin-right: 15px;
     box-shadow: 5px 5px 10px 5px rgb(84, 79, 79);
 }
-
+.block:hover{
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    border: dashed red 2px;
+    transition:1s;
+}
  body{
      margin:0;
  }

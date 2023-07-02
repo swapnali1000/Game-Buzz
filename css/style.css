@@ -1,7 +1,19 @@
-.body{background-color: black;}
 
-.heading{
-    background-color:#33ccff ;
-    text-align:center;
-    font-size: 50px;
-    }
+.body-login{background: url(Background.2.png);
+    background-size:cover; background-repeat: no-repeat;}
+
+.header{display: flex; font-size: 70px; margin-top: 120px;
+ text-align: center;justify-content: space-around;
+ color:aqua; text-shadow: aquamarine -8px 5px 15px;}   
+
+.explorer-game{background-color:transparent;
+        border: 2px solid black; border-radius: 10px;width:440px;
+        text-decoration: none;
+        font-size:28px;text-align: center;
+        box-shadow: 2px 2px 30px 3px aqua;
+        margin-left: auto; margin-right: auto; margin-top: 300px;}  
+
+ .a{ text-decoration: none; color:#ff4da6; }     
+ 
+ .explorer-game:hover{background-color:transparent; font-size: 30px;width:480px;}   
+ .a:hover{color:red}

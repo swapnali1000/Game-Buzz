@@ -1,0 +1,12 @@
+
+.body{ background-color: beige;}
+.container-1{ display: flex; justify-content: center;}
+
+.card{ background-color: bisque;height: 400px; width: 250px;
+       margin: 10px; margin-left: -1000px; border-radius: 15px;}
+
+.card-image{background-color: aquamarine;height: 200px;
+    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
+    background-size: cover;}
+    
+.game-name{margin-left:10px;}

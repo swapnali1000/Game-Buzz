@@ -10,3 +10,7 @@
     background-size: cover;}
     
 .game-name{margin-left:10px;}
+.card-image{background-color: aquamarine;height: 200px;
+    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
+    background-size: cover;}
+.among-us{ background-image: url('Among-Us.jfif'); }

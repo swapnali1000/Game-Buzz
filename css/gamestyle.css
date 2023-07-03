@@ -33,10 +33,12 @@
         margin-left: auto;margin-right: auto;}
     .anchor-about-download{text-decoration: none;color: black;}
     .footer-img{display: flex; height: 200px; 
-        margin:100px;}
+        margin:100px;margin-left: -25px;}
     .COD{ background-image: url('callofduty-card-img.jfif'); }
     .undawn{ background-image: url('undawn-card-img.webp'); }   
     .DOZ{ background-image: url('DOZ-card-img.webp'); }
     .pubg{ background-image: url('pubg-card-img.webp'); }
     .about-body-COD{background: url("background-img-cod.jfif") ;
+        background-repeat: no-repeat; background-size:cover;}
+    .about-body-undawn{ background: url('undawn-background-img.jfif');
         background-repeat: no-repeat; background-size:cover;}

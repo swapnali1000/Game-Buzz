@@ -1,9 +1,11 @@
 
+
 .body{ background-color: beige;}
+
 .container-1{ display: flex; justify-content: center;}
 
 .card{ background-color: bisque;height: 400px; width: 250px;
-       margin: 10px; margin-left: -1000px; border-radius: 15px;}
+       margin: 10px; border-radius: 15px;}
 
 .card-image{background-color: aquamarine;height: 200px;
     margin-bottom: 15px; border-radius: 15px; background-repeat:round;
@@ -29,3 +31,4 @@
         font-size: 50px;border-radius:20px;position: relative;bottom: -50px;
         margin-left: auto;margin-right: auto;}
         .anchor-among-us{text-decoration: none;color: black;}
+    

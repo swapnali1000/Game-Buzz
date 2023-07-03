@@ -25,3 +25,6 @@
     .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
     .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
     .about-of-Among-us{ text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
+    .download-btn{background-color:aquamarine;text-align: center; width:250px;
+        font-size: 50px;border-radius:20px;position: relative;bottom: -50px;
+        margin-left: auto;margin-right: auto;}

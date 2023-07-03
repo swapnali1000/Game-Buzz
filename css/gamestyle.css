@@ -23,7 +23,7 @@
     font-size: 30px;border-radius:20px;position: relative;top:-10px;
     margin-left: auto;margin-right: auto;}
 .anchor-tag{ text-decoration: none;color: black;}
-.about-body1{ background: url("background-among-us.jpg") ;
+.about-body-among-us{ background: url("background-among-us.jpg") ;
     background-repeat: no-repeat; background-size:cover;}
     .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
     .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
@@ -36,3 +36,5 @@
     .undawn{ background-image: url('undawn-card-img.webp'); }   
     .DOZ{ background-image: url('DOZ-card-img.webp'); }
     .pubg{ background-image: url('pubg-card-img.webp'); }
+    .about-body-COD{background: url("background-img-cod.jfif") ;
+        background-repeat: no-repeat; background-size:cover;}

@@ -15,7 +15,7 @@
 .card-image{background-color: aquamarine;height: 200px;
     margin-bottom: 15px; border-radius: 15px; background-repeat:round;
     background-size: cover;}
-.among-us{ background-image: url('Among-Us.jfif'); }
+.among-us{ background-image: url('../img/Among-Us.jfif'); }
 .star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
 .half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
 .company-name{ position: relative;top:-28px;margin-left: 10px;}
@@ -23,7 +23,7 @@
     font-size: 30px;border-radius:20px;position: relative;top:-10px;
     margin-left: auto;margin-right: auto;}
 .anchor-tag{ text-decoration: none;color: black;}
-.about-body-among-us{ background: url("background-among-us.jpg") ;
+.about-body-among-us{ background: url("../img/background-among-us.jpg") ;
     background-repeat: no-repeat; background-size:cover;}
     .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
     .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
@@ -34,12 +34,12 @@
     .anchor-about-download{text-decoration: none;color: black;}
     .anchor-about-download:hover{color: red;}
     .footer-img{display: flex; height: 200px;
-         margin:100px;margin-left: -25px;}
-    .COD{ background-image: url('callofduty-card-img.jfif'); }
-    .undawn{ background-image: url('undawn-card-img.webp'); }   
-    .DOZ{ background-image: url('DOZ-card-img.webp'); }
-    .pubg{ background-image: url('pubg-card-img.webp'); }
-    .about-body-COD{background: url("background-img-cod.jfif") ;
+         margin:80px;margin-left: -25px;}
+    .COD{ background-image: url('../img/callofduty-card-img.jfif'); }
+    .undawn{ background-image: url('../img/undawn-card-img.webp'); }   
+    .DOZ{ background-image: url('../img/DOZ-card-img.webp'); }
+    .pubg{ background-image: url('../img/pubg-card-img.webp'); }
+    .about-body-COD{background: url("../img/background-img-cod.jfif") ;
         background-repeat: no-repeat; background-size:cover;}
-    .about-body-undawn{ background: url('undawn-background-img.jfif');
+    .about-body-undawn{ background: url('../img/undawn-background-img.jfif');
         background-repeat: no-repeat; background-size:cover;}

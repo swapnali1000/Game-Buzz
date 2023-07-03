@@ -16,3 +16,7 @@
 .among-us{ background-image: url('Among-Us.jfif'); }
 .star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
 .company-name{ position: relative;top:-28px;margin-left: 10px;}
+.download{background-color:aquamarine;text-align: center; width:160px;
+    font-size: 30px;border-radius:20px;position: relative;top:-10px;
+    margin-left: auto;margin-right: auto;}
+.anchor-tag{ text-decoration: none;color: black;}

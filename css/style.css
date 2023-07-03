@@ -82,3 +82,10 @@ body{
 .paragraph1{
     font-size:30px;
 }
+.imgdivision{
+    background-image: url("https://www.gamespot.com/a/uploads/original/1552/15524586/3774263-613605-assassins-creed-valhalla-patch.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}

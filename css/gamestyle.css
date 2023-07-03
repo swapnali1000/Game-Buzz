@@ -20,3 +20,5 @@
     font-size: 30px;border-radius:20px;position: relative;top:-10px;
     margin-left: auto;margin-right: auto;}
 .anchor-tag{ text-decoration: none;color: black;}
+.about-body1{ background: url("background-among-us.jpg") ;
+    background-repeat: no-repeat; background-size:cover;}

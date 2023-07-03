@@ -17,6 +17,7 @@
     background-size: cover;}
 .among-us{ background-image: url('Among-Us.jfif'); }
 .star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+.half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
 .company-name{ position: relative;top:-28px;margin-left: 10px;}
 .download{background-color:aquamarine;text-align: center; width:160px;
     font-size: 30px;border-radius:20px;position: relative;top:-10px;
@@ -31,7 +32,7 @@
         font-size: 50px;border-radius:20px;position: relative;bottom: -50px;
         margin-left: auto;margin-right: auto;}
     .anchor-among-us{text-decoration: none;color: black;}
-    .COD{ background-image: url('callofduty-background-img.jfif'); }
+    .COD{ background-image: url('callofduty-card-img.jfif'); }
     .undawn{ background-image: url('undawn-card-img.webp'); }   
     .DOZ{ background-image: url('DOZ-card-img.webp'); }
-    .pubg{ background-image: url('pubg-card-img.webpgit'); }
+    .pubg{ background-image: url('pubg-card-img.webp'); }

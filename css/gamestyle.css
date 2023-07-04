@@ -33,7 +33,7 @@
         margin-left: auto;margin-right: auto;}
     .anchor-about-download{text-decoration: none;color: black;}
     .anchor-about-download:hover{color: red;}
-    .footer-img{display: flex; height: 200px;
+    .footer-img{display: flex;width: 100px; height: 180px;
          margin:90px;margin-left: -25px;}
     .COD{ background-image: url('../img/callofduty-card-img.jfif'); }
     .undawn{ background-image: url('../img/undawn-card-img.webp'); }   

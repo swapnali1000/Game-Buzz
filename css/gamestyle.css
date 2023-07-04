@@ -4,7 +4,7 @@
 
 .container{ display: flex; justify-content: center;}
 
-.card{ background-color: bisque;height: 400px; width: 250px;
+.card{ background-color: bisque;height: 400px; width: 220px;
        margin: 10px; border-radius: 15px;}
 
 .card-image{background-color: aquamarine;height: 200px;
@@ -60,3 +60,8 @@
     .MC{background-image:url('../img/MC-card-img.jfif');}
     .BJ{background-image:url('../img/BJ-card-img.jfif');}
 
+    .AN{background-image:url('../img/AN2-card-img.jfif');}
+    .TR{background-image:url('../img/TR-card-img.jfif');}
+    .AR{background-image:url('../img/AR-card-img.jfif');}
+    .DD{background-image:url('../img/DD-card-img.jfif');}
+    .TB{background-image:url('../img/TB-card-img.jfif');}

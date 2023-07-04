@@ -2,7 +2,7 @@
 
 .body{ background-color: beige;}
 
-.container-1{ display: flex; justify-content: center;}
+.container{ display: flex; justify-content: center;}
 
 .card{ background-color: bisque;height: 400px; width: 250px;
        margin: 10px; border-radius: 15px;}

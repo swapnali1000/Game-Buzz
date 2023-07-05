@@ -1,30 +1,28 @@
+    .body{ background-color: beige; margin-bottom:80px;}
 
+    .container{ display: flex; justify-content: center;}
 
-.body{ background-color: beige; margin-bottom:80px;}
+    .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
+            margin: 10px; border-radius: 15px;}
 
-.container{ display: flex; justify-content: center;}
-
-.card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
-       margin: 10px; border-radius: 15px;}
-
-.card-image{background-color: aquamarine;height: 200px;
-    margin-bottom:8px; border-radius: 15px; background-repeat:round;
-    background-size: cover;}
+    .card-image{background-color: aquamarine;height: 200px;
+                margin-bottom:8px; border-radius: 15px; background-repeat:round;
+                background-size: cover;}
     
-.game-name{margin-left:10px;}
-.card-image{background-color: aquamarine;height: 200px;
-    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
-    background-size: cover;}
-.among-us{ background-image: url('../img/Among-Us.jfif'); }
-.star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
-.half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
-.company-name{ position: relative;top:-28px;margin-left: 10px;}
-.download{background-color:aquamarine;text-align: center; width:160px;
-    font-size: 30px;border-radius:20px;position: relative;top:-20px;
-    margin-left: auto;margin-right: auto;}
-.anchor-tag{ text-decoration: none;color: black;}
-.about-body-among-us{ background: url("../img/background-among-us.jpg") ;
-    background-repeat: no-repeat; background-size:cover;}
+    .game-name{margin-left:10px;}
+    .card-image{background-color: aquamarine;height: 200px;        
+               margin-bottom: 15px; border-radius: 15px; background-repeat:round;
+               background-size: cover;}
+    .among-us{ background-image: url('../img/Among-Us.jfif'); }
+    .star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+    .half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+    .company-name{ position: relative;top:-28px;margin-left: 10px;}
+    .download{background-color:aquamarine;text-align: center; width:160px;
+          font-size: 30px;border-radius:20px;position: relative;top:-20px;
+          margin-left: auto;margin-right: auto;}
+    .anchor-tag{ text-decoration: none;color: black;}
+    .about-body-among-us{ background: url("../img/background-among-us.jpg") ;
+                         background-repeat: no-repeat; background-size:cover;}
     .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
     .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
     .about-game-information{ text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
@@ -72,3 +70,45 @@
     .SC{background-image:url('../img/SC-card-img.webp');}
     .DS3{background-image:url('../img/DS3-card-img.webp');}
 
+    .about-body-HP{ background: url('../img/harrypotter-background-img.jfif');
+        background-repeat: no-repeat; background-size:cover;}
+    .about-body-DS{ background: url('../img/disorder-background-img.jfif');
+            background-repeat: no-repeat; background-size:cover;}
+    .about-body-ROD{ background: url('../img/ROD-background-img.jfif');
+                     background-repeat: no-repeat; background-size:cover;} 
+    .about-body-CI{ background: url('../img/chibi-background-img.jfif');
+                    background-repeat: no-repeat; background-size:cover;} 
+    .about-body-HC{ background: url('../img/HC-background-img.jfif');
+                     background-repeat: no-repeat; background-size:cover;}
+    .about-body-SS{ background: url('../img/SS-background-img.jfif');
+                 background-repeat: no-repeat; background-size:cover;}
+    .about-body-AB{ background: url('../img/AB-background-img.jfif');
+                 background-repeat: no-repeat; background-size:cover;}
+    .about-body-CE{ background: url('../img/CE-background\ -img.jfif');
+                background-repeat: no-repeat; background-size:cover;}
+    .about-body-MC{ background: url('../img/MC-background-img.jfif');
+                 background-repeat: no-repeat; background-size:cover;}
+    .about-body-Bj{ background: url('../img/BJ-background-img.jfif');
+                   background-repeat: no-repeat; background-size:cover;}
+    .about-body-AN{ background: url('../img/AN2-bckg-img.jpg');
+                   background-repeat: no-repeat; background-size:cover;}
+    .about-body-TR{ background: url('../img/TR-bckg-img.jfif');
+                background-repeat: no-repeat; background-size:cover;}
+    .about-body-AR{ background: url('../img/AR-bckg-img.jfif');
+                 background-repeat: no-repeat; background-size:cover;}
+    .about-body-DD{ background: url('../img/DD-bckg-img.jfif');
+                background-repeat: no-repeat; background-size:cover;}
+    .about-body-TB{ background: url('../img/TB-bckg-img.jfif');
+                background-repeat: no-repeat; background-size:cover;}
+    .about-body-OH{ background: url('../img/OH-bckg-img.jfif');
+                   background-repeat: no-repeat; background-size:cover;}
+    .about-body-BD2{ background: url('../img/BD2-bckg-img.jfif');
+                  background-repeat: no-repeat; background-size:cover;}
+    .about-body-HIT{ background: url('../img/HIT2-bckg-img.jfif');
+                  background-repeat: no-repeat; background-size:cover;}
+    .about-body-SC{ background: url('../img/SC-bckg-img.jfif');
+                  background-repeat: no-repeat; background-size:cover;}
+    .about-body-DS3{ background: url('../img/DS3-bckg-img.jfif');
+                background-repeat: no-repeat; background-size:cover;}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        

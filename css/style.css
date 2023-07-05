@@ -84,14 +84,14 @@ body{
 .card:hover .card1{
     top:0%;
 }
-/*.cardi{
+.cardi{
     width: 100%;
     height: 100%;
     border-radius: 10px;
     overflow: hidden;
 
 }
-.card1 img{
+/*.card1 img{
     width: 150px;
     
 }

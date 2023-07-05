@@ -1,4 +1,4 @@
-/*.division{
+.division{
     background-color: rgb(0, 0 , 0 ,0.8);
     padding: 20px;
     width:100%;
@@ -7,7 +7,7 @@
     display: flex;  
     justify-content: space-evenly; 
 }
-.division img{
+/*.division img{
     width: 120px;
 }
 .block{

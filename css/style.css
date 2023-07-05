@@ -111,11 +111,11 @@ body{
     color:white;
     border:solid black 1px;
 }
-/*.but:hover{
+.but:hover{
     border-radius: 20px;
     border:solid red 2px;
 }
-.feaImg{
+/*.feaImg{
     height: 400px;
     border-radius: 10px;
    

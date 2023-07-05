@@ -128,7 +128,7 @@ body{
     
 
 }
-/*.outer-div{
+.outer-div{
     display: flex;
     flex-direction: column;
     padding: 35px 130px 35px 130px;
@@ -139,7 +139,7 @@ body{
     background-repeat:no-repeat;
     
 }
-.div1{
+/*.div1{
     width:40%;
     
 }

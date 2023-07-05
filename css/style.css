@@ -198,14 +198,14 @@ body{
 .imgdivision button:hover{
     border: solid #fff 2px;
 }
-/*.maindiv{
+.maindiv{
     position:relative;
     top: 35px;
     
     display: flex;
     flex-direction: column;
 }
-.Explore{
+/*.Explore{
     margin-left: auto;
     margin-right: auto;
     width: 200px;

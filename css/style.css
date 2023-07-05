@@ -217,10 +217,10 @@ body{
     background-color: #021234;
     cursor: pointer;
 }
-/*.Explore:hover{
+.Explore:hover{
     background-color: #97e97c;
 }
-.footer{
+/*.footer{
     display: flex;
     justify-content: space-evenly;
 

@@ -91,11 +91,11 @@ body{
     overflow: hidden;
 
 }
-/*.card1 img{
+.card1 img{
     width: 150px;
     
 }
-.card1 button{
+/*.card1 button{
     width:150px;
     height: 50px;
     font-weight: 100;

@@ -34,7 +34,7 @@ body{
 .para{
     text-align: center;
 }
-/*.s1{
+.s1{
     height: 700px;
     background: url(../img/artefacts-features.png);
     background-size: cover; 
@@ -45,7 +45,7 @@ body{
    
 }
 
-.container{
+/*.container{
    
     
     display: flex;

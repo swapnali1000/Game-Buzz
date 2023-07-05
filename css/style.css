@@ -65,7 +65,7 @@ body{
     overflow: hidden;
 
 }
-/*.card1{
+.card1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +81,7 @@ body{
     
 }
 
-.card:hover .card1{
+/*.card:hover .card1{
     top:0%;
 }
 .cardi{

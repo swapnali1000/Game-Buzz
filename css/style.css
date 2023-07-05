@@ -10,7 +10,7 @@
 .division img{
     width: 120px;
 }
-/*.block{
+.block{
    
 
     color: #fff;
@@ -24,7 +24,7 @@
 .block:hover{
     transition:1s;
 }
-body{
+/*body{
      margin:0;
      background-color: white;
      background-repeat: no-repeat;

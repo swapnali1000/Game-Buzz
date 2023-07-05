@@ -163,7 +163,7 @@ body{
     
 
 }
-/*.imgdivision{
+.imgdivision{
     background-image: url(../img/1681998215476-1680500645964-1679652477282-Website---2023-03-24T153738.668-\(2\)-\(1\)-\(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +176,7 @@ body{
     justify-content: center;
     
 }
-.imgdivision img{
+/*.imgdivision img{
     
     margin-left: 100px;
     width: 300px;

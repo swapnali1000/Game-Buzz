@@ -45,7 +45,7 @@ body{
    
 }
 
-/*.container{
+.container{
    
     
     display: flex;
@@ -56,7 +56,7 @@ body{
     
 }
 
-.card
+/*.card
 {
     width:250px;
     position:relative; 

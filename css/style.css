@@ -195,10 +195,10 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-/*.imgdivision button:hover{
+.imgdivision button:hover{
     border: solid #fff 2px;
 }
-.maindiv{
+/*.maindiv{
     position:relative;
     top: 35px;
     

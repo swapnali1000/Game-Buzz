@@ -182,7 +182,7 @@ body{
     width: 300px;
     margin-left: 200px;
 }
-/*.imgdivision button{
+.imgdivision button{
     background-color: rgb(0,0,0,0.5);
     color:#fff;
     width: 200px;
@@ -195,7 +195,7 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
-.imgdivision button:hover{
+/*.imgdivision button:hover{
     border: solid #fff 2px;
 }
 .maindiv{

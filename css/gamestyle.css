@@ -1,0 +1,44 @@
+
+
+.body{ background-color: beige;}
+
+.container-1{ display: flex; justify-content: center;}
+
+.card{ background-color: bisque;height: 400px; width: 250px;
+       margin: 10px; border-radius: 15px;}
+
+.card-image{background-color: aquamarine;height: 200px;
+    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
+    background-size: cover;}
+    
+.game-name{margin-left:10px;}
+.card-image{background-color: aquamarine;height: 200px;
+    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
+    background-size: cover;}
+.among-us{ background-image: url('Among-Us.jfif'); }
+.star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+.half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+.company-name{ position: relative;top:-28px;margin-left: 10px;}
+.download{background-color:aquamarine;text-align: center; width:160px;
+    font-size: 30px;border-radius:20px;position: relative;top:-10px;
+    margin-left: auto;margin-right: auto;}
+.anchor-tag{ text-decoration: none;color: black;}
+.about-body-among-us{ background: url("background-among-us.jpg") ;
+    background-repeat: no-repeat; background-size:cover;}
+    .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
+    .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
+    .about-game-information{ text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
+    .download-btn{background-color:aquamarine;text-align: center; width:250px;
+        font-size: 50px;border-radius:20px;position: relative;bottom: -50px;
+        margin-left: auto;margin-right: auto;}
+    .anchor-about-download{text-decoration: none;color: black;}
+    .footer-img{display: flex; height: 200px; 
+        margin:100px;margin-left: -25px;}
+    .COD{ background-image: url('callofduty-card-img.jfif'); }
+    .undawn{ background-image: url('undawn-card-img.webp'); }   
+    .DOZ{ background-image: url('DOZ-card-img.webp'); }
+    .pubg{ background-image: url('pubg-card-img.webp'); }
+    .about-body-COD{background: url("background-img-cod.jfif") ;
+        background-repeat: no-repeat; background-size:cover;}
+    .about-body-undawn{ background: url('undawn-background-img.jfif');
+        background-repeat: no-repeat; background-size:cover;}

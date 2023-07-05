@@ -176,13 +176,13 @@ body{
     justify-content: center;
     
 }
-/*.imgdivision img{
+.imgdivision img{
     
     margin-left: 100px;
     width: 300px;
     margin-left: 200px;
 }
-.imgdivision button{
+/*.imgdivision button{
     background-color: rgb(0,0,0,0.5);
     color:#fff;
     width: 200px;

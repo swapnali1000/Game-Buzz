@@ -104,14 +104,14 @@ body{
     border-radius: 20px;
     border: none;
 }
-/*.but{
+.but{
     background-color: rgb(118, 27, 27);
     border-radius: 10px;
     font-size: 20px;
     color:white;
     border:solid black 1px;
 }
-.but:hover{
+/*.but:hover{
     border-radius: 20px;
     border:solid red 2px;
 }

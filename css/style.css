@@ -56,7 +56,7 @@ body{
     
 }
 
-/*.card
+.card
 {
     width:250px;
     position:relative; 
@@ -65,7 +65,7 @@ body{
     overflow: hidden;
 
 }
-.card1{
+/*.card1{
     display: flex;
     justify-content: center;
     align-items: center;

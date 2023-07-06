@@ -1,5 +1,4 @@
-    .body{ background-color: beige; margin-bottom:80px;}
-
+    .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:80px;}
     .container{ display: flex; justify-content: center;}
 
     .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;

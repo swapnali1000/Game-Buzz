@@ -138,7 +138,7 @@ ul {
 /* header section */
 
 header {
-    padding: 50px var(--padding-inline-section) 0:
+    padding: 50px var(--padding-inline-section) 0;
 
 
 }

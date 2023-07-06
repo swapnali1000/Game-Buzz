@@ -220,11 +220,67 @@ body{
 .Explore:hover{
     background-color: #97e97c;
 }
-/*.footer{
+.footer{
     display: flex;
     justify-content: space-evenly;
+    background-color:#021234;
+    height: 800px;
 
 }
 .footerchild{
+     background-color: #97e97c;
+     height: 500px;
+     width: 200px;
+     margin-top: 100px;
+     padding: 10px;
+}
+/*.s3{
+    
+   
+}
+.ucontainer{
+    
+    background-image: url(../img/artefacts-features.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
+    
+}
+.upcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+    
+    
 }*/
+.ucontainer{
+    padding: 10px;
+    background-image: url(../img/artefacts-features.png);
+    background-color: #253162;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.upcontainer{
+    
+    
+}
+.upcoming{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+}
+.upchild{
+    border-radius: 10px;
+    
+}
+
+.upchild:hover img{
+ 
+ border: solid white 1px;
+
+ 
+
+}

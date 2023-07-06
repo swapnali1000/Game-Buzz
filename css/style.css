@@ -220,11 +220,17 @@ body{
 .Explore:hover{
     background-color: #97e97c;
 }
-/*.footer{
+.footer{
     display: flex;
     justify-content: space-evenly;
+    background-color: #253162;
+    height: 800px;
 
 }
 .footerchild{
-
-}*/
+     background-color: #97e97c;
+     height: 500px;
+     width: 200px;
+     margin-top: 100px;
+     padding: 10px;
+}

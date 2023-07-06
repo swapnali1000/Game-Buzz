@@ -22,7 +22,7 @@
           margin-left: auto;margin-right: auto;}
     .anchor-tag{ text-decoration: none;color: black;}
     .about-body-among-us{ background: url("../img/background-among-us.jpg") ;
-                         background-repeat: no-repeat; background-size:cover;}
+                         }
     .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
     .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
     .about-game-information{ text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
@@ -38,13 +38,13 @@
     .DOZ{ background-image: url('../img/DOZ-card-img.webp'); }
     .pubg{ background-image: url('../img/pubg-card-img.webp'); }
     .about-body-COD{background: url("../img/background-img-cod.jfif") ;
-        background-repeat: no-repeat; background-size:cover;}
+        }
     .about-body-undawn{ background: url('../img/undawn-background-img.jfif');
-        background-repeat: no-repeat; background-size:cover;}
+        }
     .about-body-DOZ{background: url('../img/DOZ-background-img.jfif');
-       background-repeat: no-repeat; background-size:cover; }   
+       }   
     .about-body-pubg{background: url('../img/pubg-backgroung-img.jfif');
-        background-repeat: no-repeat; background-size:cover;}
+        }
 
     .HP{background-image: url('../img/harrypotter-card-img.jfif')}
     .disorder{background-image: url('../img/disorder-card-img.jfif')}
@@ -71,44 +71,44 @@
     .DS3{background-image:url('../img/DS3-card-img.webp');}
 
     .about-body-HP{ background: url('../img/harrypotter-background-img.jfif');
-        background-repeat: no-repeat; background-size:cover;}
+    }
     .about-body-DS{ background: url('../img/disorder-background-img.jfif');
-            background-repeat: no-repeat; background-size:cover;}
+            }
     .about-body-ROD{ background: url('../img/ROD-background-img.jfif');
-                     background-repeat: no-repeat; background-size:cover;} 
+                     } 
     .about-body-CI{ background: url('../img/chibi-background-img.jfif');
-                    background-repeat: no-repeat; background-size:cover;} 
+                    } 
     .about-body-HC{ background: url('../img/HC-background-img.jfif');
-                     background-repeat: no-repeat; background-size:cover;}
+                    }
     .about-body-SS{ background: url('../img/SS-background-img.jfif');
-                 background-repeat: no-repeat; background-size:cover;}
+                 }
     .about-body-AB{ background: url('../img/AB-background-img.jfif');
-                 background-repeat: no-repeat; background-size:cover;}
+                 }
     .about-body-CE{ background: url('../img/CE-background\ -img.jfif');
-                background-repeat: no-repeat; background-size:cover;}
+                }
     .about-body-MC{ background: url('../img/MC-background-img.jfif');
-                 background-repeat: no-repeat; background-size:cover;}
+                }
     .about-body-BJ{ background: url('../img/BJ-background-img.jfif');
-                   background-repeat: no-repeat; background-size:cover;}
+                   }
     .about-body-AN{ background: url('../img/AN2-bckg-img.jpg');
-                   background-repeat: no-repeat; background-size:cover;}
+                   }
     .about-body-TR{ background: url('../img/TR-bckg-img.jfif');
-                background-repeat: no-repeat; background-size:cover;}
+               }
     .about-body-AR{ background: url('../img/AR-bckg-img.jfif');
-                 background-repeat: no-repeat; background-size:cover;}
+                }
     .about-body-DD{ background: url('../img/DD-bckg-img.jfif');
-                background-repeat: no-repeat; background-size:cover;}
+                }
     .about-body-TB{ background: url('../img/TB-bckg-img.jfif');
-                background-repeat: no-repeat; background-size:cover;}
+               }
     .about-body-OH{ background: url('../img/OH-bckg-img.jfif');
-                   background-repeat: no-repeat; background-size:cover;}
+                  }
     .about-body-BD2{ background: url('../img/BD2-bckg-img.jfif');
-                  background-repeat: no-repeat; background-size:cover;}
+                  }
     .about-body-HIT{ background: url('../img/HIT2-bckg-img.jfif');
-                  background-repeat: no-repeat; background-size:cover;}
+                 }
     .about-body-SC{ background: url('../img/SC-bckg-img.jfif');
-                  background-repeat: no-repeat; background-size:cover;}
+                 }
     .about-body-DS3{ background: url('../img/DS3-bckg-img.jfif');
-                background-repeat: no-repeat; background-size:cover;}
+                }
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
         

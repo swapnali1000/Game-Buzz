@@ -1,4 +1,5 @@
-    .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:80px;}
+    .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:0px;
+    padding: 0;box-sizing: border-box;}
     .container{ display: flex; justify-content: center;}
 
     .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
@@ -118,5 +119,15 @@
                  }
     .about-body-DS3{ background: url('../img/DS3-bckg-img.jfif');
                 }
+
+    .container-2{max-width: 1170px; margin: auto;}    
+    .footer{background-color:#24262b;padding:15px 0px;} 
+    .footer-col{width:25%;padding: 0px 15px;} 
+    .footer-col h4{font-size: 20px; color:black;}
+    .row{display: flex;flex-wrap: wrap;}
+    ul{list-style: none;}
+    .body-footer-img{height: 25px;}
+
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
         

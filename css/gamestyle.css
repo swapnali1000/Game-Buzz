@@ -46,6 +46,12 @@
     .about-body-pubg{background: url('../img/pubg-backgroung-img.jfif');
         }
 
+    .FE{ background: url('../img/FE-card-img.png');background-size: cover;}
+    .AG{background: url('../img/AG-card-img.png');background-size: cover;}
+    .C{background: url('../img/C-card-img.png');background-size: cover;}
+    .DL{background: url('../img/DL-card-img.png');background-size: cover;}
+    .LU{background: url('../img/LU-card-img.png');background-size: cover;}   
+
     .HP{background-image: url('../img/harrypotter-card-img.jfif')}
     .disorder{background-image: url('../img/disorder-card-img.jfif')}
     .ROD{background-image: url('../img/ROD-card-img.jfif')}

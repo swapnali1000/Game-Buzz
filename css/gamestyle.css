@@ -50,7 +50,10 @@
     .AG{background: url('../img/AG-card-img.png');background-size: cover;}
     .C{background: url('../img/C-card-img.png');background-size: cover;}
     .DL{background: url('../img/DL-card-img.png');background-size: cover;}
-    .LU{background: url('../img/LU-card-img.png');background-size: cover;}   
+    .LU{background: url('../img/LU-card-img.png');background-size: cover;}  
+    
+    .upcoming{font-size: 25px;text-align: center;}
+    .anchor-tag-upcoming{text-decoration: none; color: blue;}
 
     .HP{background-image: url('../img/harrypotter-card-img.jfif')}
     .disorder{background-image: url('../img/disorder-card-img.jfif')}

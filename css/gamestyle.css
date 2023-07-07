@@ -3,7 +3,7 @@
     .container{ display: flex; justify-content: center;}
 
     .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
-            margin: 10px; border-radius: 15px;}
+            margin: 10px; border-radius: 15px; margin-bottom: 80px;}
 
     .card-image{background-color: aquamarine;height: 200px;
                 margin-bottom:8px; border-radius: 15px; background-repeat:round;
@@ -120,14 +120,15 @@
     .about-body-DS3{ background: url('../img/DS3-bckg-img.jfif');
                 }
 
-    .container-2{max-width:2000px; margin: auto;}    
+    .container-2{max-width:2000px; margin: auto; margin-left:200px;}    
     .footer{background-color:#24262b;padding:15px 0px;} 
-    .footer-col{width:25%;padding: 0px 15px;} 
+    .footer-col{width:25%;padding: 0px 15px; margin-bottom: 40px;} 
     .footer-col h4{font-size: 20px; color:black;}
     .row{display: flex;flex-wrap: wrap;}
+    .h4{font-size: 25px;}
     ul{list-style: none;}
     .body-footer-img{height: 25px;}
+    .fotter-anchor{text-decoration: none;font-size: 20px;}
 
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
         

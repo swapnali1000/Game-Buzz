@@ -2,12 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
+
+
 }
 
 :root {
 	--primary-text-color: #183b56;
     --secondary-text-color: #577592;
-    --accent-color: #2294ed;
+    --accent-color: #06ebc8;
     --accent-color-dark: #1d69a3;
     --padding-inline-section: 20px;
 }
@@ -15,7 +18,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--primary-text-color);
-    background: radial-gradient(#f9d349, 20%, #d57e12);
+    background-color: #fbfbfc;
     
 }
 
@@ -79,7 +82,7 @@ ul {
     background-color: var(--accent-color);
     border-radius: 6px;
     font-weight: 700;
-    color: white !important;
+    color: rgb(204, 31, 31) !important;
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
@@ -116,7 +119,7 @@ ul {
 
 .nav-links {
     flex-basis: 730px;
-    background-color: aqua;
+    background-color: rgb(15, 238, 238);
     padding: 10px; 
     position: sticky;
     top: 0;
@@ -167,7 +170,7 @@ img {
 
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
-    background-image: url(./assets/asset\ 32.svg);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     
@@ -210,7 +213,7 @@ img {
 .cta-section-container {
     flex-direction: column;
     gap: 30px;
-    color: white;
+    color: rgb(42, 249, 10);
     text-align: center;
 }
 

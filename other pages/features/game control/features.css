@@ -170,7 +170,6 @@ img {
 
 .features-section {
     padding: 80px var(--padding-inline-section) 0;
-    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
     
@@ -219,7 +218,7 @@ img {
 
 .cta-section {
     padding: 120px var(--padding-inline-section) 80px;
-    background-color: #183b54;
+    background-color: #023b69;
 }
 
 .cta-section-container p {

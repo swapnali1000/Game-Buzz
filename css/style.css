@@ -33,7 +33,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
-    width: 100%;
+    width: 1519px;
     position:relative;
     top: 5px;
     display: flex;
@@ -64,9 +64,16 @@ body{
     border: solid #fff 2px;
 }
 
+@media screen and (max-width: 768px) {
+
+   
+    
+}
+  
 /* GAME CARDS CSS */
 .s1{
     height: 700px;
+    width: 1519px;
     background: url(../img/artefacts-features.png);
     background-size: cover; 
     box-sizing: border-box;
@@ -162,6 +169,7 @@ body{
 /* FEATURES CSS */
 .outer-div{
     display: flex;
+    width: 1519px;
     flex-direction: column;
     padding: 35px 130px 35px 130px;
     background: url(../img/artefacts-features.png);
@@ -193,8 +201,9 @@ body{
 
 /* LATEST AND UPCOMING GAMES CSS */
 .s3{
-
-    padding: 50px 130px 50px 130px;
+    width: 1519px;
+    padding-top:50px;
+    padding-bottom: 50px;
     background-image: url(../img/artefacts-features.png);
     background-color: #253162 ;
 }
@@ -226,7 +235,8 @@ body{
 
 /* VEDIO CSS*/
 .s4{
-    padding: 10px;
+    width: 1519px;
+    padding-top: 10px;
     background-color: #021234; 
     background-image: url(../img/artefacts-features.png);
     background-size: cover;
@@ -246,6 +256,7 @@ body{
 
 /* FOOTER CSS*/
 .footer {
+    width: 1519px;
     display: flex;
     justify-content: space-evenly;
     background-color:#253162;
@@ -254,7 +265,8 @@ body{
     background-image: url(../img/artefacts-features.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px;
+    *padding: 100px;
+    padding-top: 100px;
 }
 .footerchild {
     width: 200px;
@@ -280,7 +292,11 @@ body{
 
 
 
-
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  
+  }
+  
 
 
 

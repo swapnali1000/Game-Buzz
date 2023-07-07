@@ -120,7 +120,7 @@
     .about-body-DS3{ background: url('../img/DS3-bckg-img.jfif');
                 }
 
-    .container-2{max-width: 1170px; margin: auto;}    
+    .container-2{max-width:2000px; margin: auto;}    
     .footer{background-color:#24262b;padding:15px 0px;} 
     .footer-col{width:25%;padding: 0px 15px;} 
     .footer-col h4{font-size: 20px; color:black;}

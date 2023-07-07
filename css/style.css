@@ -1,5 +1,5 @@
 .division{
-    background-color: rgb(0, 0 , 0 ,0.8);
+    background-color: rgb(0, 0 , 0 ,0.5);
     padding: 20px;
     width:100%;
     z-index: 1;
@@ -9,6 +9,9 @@
 }
 .division img{
     width: 120px;
+}
+.gname{
+    width: 100px;
 }
 .block{
    
@@ -220,52 +223,22 @@ body{
 .Explore:hover{
     background-color: #97e97c;
 }
-.footer{
-    display: flex;
-    justify-content: space-evenly;
-    background-color:#021234;
-    height: 800px;
 
-}
-.footerchild{
-     background-color: #97e97c;
-     height: 500px;
-     width: 200px;
-     margin-top: 100px;
-     padding: 10px;
-}
-/*.s3{
-    
-   
-}
-.ucontainer{
-    
+.s3{
+
+    padding: 50px 130px 50px 130px;
     background-image: url(../img/artefacts-features.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    
+    background-color: #253162 ;
 }
-.upcontainer{
-    display: flex;
-    justify-content: space-evenly;
-    height: 200px;
-    width: 100%;
-    
-    
-}*/
+
 .ucontainer{
     padding: 10px;
-    background-image: url(../img/artefacts-features.png);
-    background-color: #253162;
+   * background-color: #253162;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
-.upcontainer{
-    
-    
-}
+
 .upcoming{
     display: flex;
     flex-direction: row;
@@ -273,8 +246,13 @@ body{
     padding: 25px;
 }
 .upchild{
-    border-radius: 10px;
     
+    border-radius: 15px ;
+    
+}
+.upchild1{
+    width: 160px;
+    height: 200px;
 }
 
 .upchild:hover img{
@@ -284,3 +262,40 @@ body{
  
 
 }
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #021234;
+    height: 300px;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footerchild {
+    width: 200px;
+  }
+  
+  .footerchild h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footerchild ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerchild li {
+    margin-bottom: 8px;
+  }
+  
+  .footerchild a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footerchild a:hover {
+    text-decoration: underline;
+  }
+  
+  

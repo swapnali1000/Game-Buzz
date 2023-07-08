@@ -42,8 +42,6 @@ body{
     
 }
 .imgdivision img{
-    
-    margin-left: 100px;
     width: 300px;
     margin-left: 200px;
 }
@@ -64,12 +62,23 @@ body{
     border: solid #fff 2px;
 }
 
-@media screen and (max-width: 768px) {
-
-   
-    
-}
-  
+@media screen and(min-width:768px ){
+    .imgdivision{
+        width:768px;
+    }
+    .imgdivision img{
+        width: 100px;
+        margin-left: 100px;
+    }
+    .imgdivision button{
+        width: 100px;
+        padding: 10px;
+        font-size:25px;
+        margin-top: 30px;
+        margin-left: 50px;
+        border-radius: 5px;
+    }
+}  
 /* GAME CARDS CSS */
 .s1{
     height: 700px;
@@ -289,14 +298,6 @@ body{
 .footerchild a:hover {
     text-decoration: underline;
 }
-
-
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-  
-  }
-  
 
 
 

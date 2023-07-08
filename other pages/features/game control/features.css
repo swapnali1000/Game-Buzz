@@ -11,8 +11,8 @@
 :root {
 	--primary-text-color: #f0f4f7;
     --secondary-text-color: #fdfdfe;
-    --accent-color: #083d9f;
-    --accent-color-dark: #17d4fa;
+    --accent-color: #0cf5f9;
+    --accent-color-dark: #fe06e5;
     --padding-inline-section: 20px;
 }
 
@@ -31,17 +31,20 @@ h1 {
 h2 {
     font-size: 2rem;
     text-decoration-color: lightblue;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h3 {
     font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
-    color: var(--secondary-text-color);
+    font-family: 'Permanent Marker', cursive;text-color;
     line-height: 1.8rem;
+
 }
 
 a {
@@ -58,6 +61,7 @@ ul {
 .small-bold-text {
     font-size: 1rem;
     font-weight: 700;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .container {
@@ -164,8 +168,6 @@ header {
     padding: 180px;
     background-position: center;
     background-repeat: no-repeat;
-    height: 120%;
-
 
 
 }
@@ -217,13 +219,13 @@ img {
 
 .features-area {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:space-between;
     gap: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .features-card {
-    flex-direction: column;
+    flex-direction:column;
     gap: 20px;
     max-width: 30%;
     text-align: center;
@@ -232,6 +234,7 @@ img {
 .features-card img {
     width: 100%;
 }
+
 
 
 
@@ -255,3 +258,40 @@ img {
     color: white;
     margin-top: 20px;
 }
+
+
+/*footer*/
+
+.footer{
+    max-width: 110%;
+    margin: 1rem auto;
+    overflow: auto;
+    background-color: rgb(2, 59, 105);
+    padding-left: 150px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.footer ,
+.footer a{
+    color: #fbfefe;
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+    text-decoration: underline;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+    
+}
+

@@ -12,7 +12,9 @@
     .category-name{font-size:35px;color:black; text-shadow:turquoise 5px 2px 4px;}
     .container{ display: flex; justify-content: center;}
     .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
-            margin: 10px; border-radius: 15px; margin-bottom: 80px;}
+            margin: 10px; border-radius: 20px; margin-bottom: 80px;
+        box-shadow: 4px 4px 4px 4px black;}
+        hr{box-shadow: 2px 2px 2px 2px thistle;}
 
     .card-image{background-color: aquamarine;height: 200px;
                 margin-bottom:8px; border-radius: 15px; background-repeat:round;
@@ -26,20 +28,27 @@
     .star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
     .half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
     .company-name{ position: relative;top:-28px;margin-left: 10px;}
-    .download{background-color:aquamarine;text-align: center; width:160px;
-          font-size: 30px;border-radius:20px;position: relative;top:-20px;
-          margin-left: auto;margin-right: auto;}
+    .download{background-color:teal;text-align: center; width:160px;
+          font-size: 30px;border-radius:10px;position: relative;top:-20px;
+          margin-left: auto;margin-right: auto;box-shadow: 2px 2px 2px 2px black;}
     .anchor-tag{ text-decoration: none;color: black;}
     .about-body-among-us{ background: url("../img/background-among-us.jpg") ;
                          background-repeat: no-repeat;background-position: center;background-size: cover;}
-    .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
-    .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
-    .about-game-information{ text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
+    .heading-1{background: linear-gradient(black,blue);
+        -webkit-background-clip: text;-webkit-text-fill-color: transparent;
+        margin:25px; font-size: 40px;}   
+    .heading{ background: linear-gradient(#0be955,#f1045f);
+        -webkit-background-clip: text;-webkit-text-fill-color: transparent
+        ;margin:25px; font-size: 25px;color: aliceblue; }   
+    .about-game-information{ background: white;
+        -webkit-background-clip: text;-webkit-text-fill-color: transparent;
+        text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
     .download-btn{background-color:aquamarine;text-align: center; width:250px;
         font-size: 50px;position: relative;bottom: -50px;
         margin-left: auto;margin-right: auto;}
-    .download-btn-about{background-color:green;text-align: center; width:380px;font-size: 35px;
-        position: relative;margin-bottom: 50px;margin-top:50px;border-radius: 4px;
+    .playstore-img{height:50px;text-align: center;margin-bottom: -35px;margin-left:-10px;margin-right:5px;}
+    .download-btn-about{background-color:teal;text-align: center; width:380px;font-size: 35px;
+        position: relative;margin-bottom: 50px;margin-top:50px;border-radius:8px;
         margin-left: auto;margin-right: auto;}
     .anchor-about-download{text-decoration: none;color: black;;}
     .anchor-about-download:hover{color: red;}

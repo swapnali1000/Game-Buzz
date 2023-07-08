@@ -124,11 +124,20 @@ ul {
 
 .nav-links {
     flex-basis: 730px;
-    background-color: rgb(31, 243, 243);
-    padding: 15px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px 1000px;
+    position: sticky;
+    top: 0;
+    position: fixed;
+    font-family:'Times New Roman', Times, serif;
+    backdrop-filter: (8px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
 
     
 }
+
+
+
 
 .nav-links ul {
     justify-content: end;

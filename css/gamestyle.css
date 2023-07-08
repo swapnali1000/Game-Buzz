@@ -52,6 +52,8 @@
         margin-left: auto;margin-right: auto;}
     .anchor-about-download{text-decoration: none;color: black;;}
     .anchor-about-download:hover{color: red;}
+    .video-tag{margin-top: -180px;margin-bottom:-50px;}
+    .video-tag-left{margin-top: -220px;margin-bottom:-50px; margin-left:850px;}
     .footer-img{display: flex;width: 100px; height: 180px;
          margin:90px;margin-left: -25px;}
     .COD{ background-image: url('../img/callofduty-card-img.jfif'); }

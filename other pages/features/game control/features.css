@@ -5,6 +5,7 @@
 
 
 
+
 }
 
 :root {
@@ -136,13 +137,28 @@ ul {
 .nav-toggle {
     display: none;
 }
+
+
+
+
+
+
+
 /* header section */
 
 header {
     padding: 50px var(--padding-inline-section) 0;
-
+    background-image: url(./../game-controls-feature-bg.jpeg);
+    background-size: 100%;
+    padding: 180px;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
+
+
+
+
 
 .header-section {
     justify-content: left;
@@ -203,7 +219,6 @@ img {
 }
 
 
-/* examples section */
 
 
 

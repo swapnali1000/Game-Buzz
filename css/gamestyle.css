@@ -16,7 +16,7 @@
     .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
             margin: 10px; border-radius: 20px; margin-bottom: 80px;
         box-shadow: 4px 4px 4px 4px black;}
-        hr{box-shadow: 2px 2px 2px 2px thistle;}
+        hr{box-shadow: 2px 2px 2px 2px thistle;margin-bottom:-80px;}
 
     .card-image{background-color: aquamarine;height: 200px;
                 margin-bottom:8px; border-radius: 15px; background-repeat:round;

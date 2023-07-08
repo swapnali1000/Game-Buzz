@@ -6,6 +6,7 @@
     .logo-img{height:70px; width:75px;margin-bottom:50px;} 
     nav{display: flex;align-items:center;justify-content: space-between;
         padding-top: 40px; padding-left: 10%;padding-right: 10%;
+        position: fixed;;
          box-shadow: 2px 15px 20px 12px black;}
     .header-name{display: flex;margin-left: 20px;margin-right: 40px;}
     .anchor-tag-nav{text-decoration: none;font-size: 20px;color: blue;}

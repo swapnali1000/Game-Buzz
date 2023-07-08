@@ -9,7 +9,7 @@
     .header-name{display: flex;margin-left: 20px;margin-right: 40px;}
     .anchor-tag-nav{text-decoration: none;font-size: 20px;color: blue;}
     .anchor-tag-nav:hover{color:red}
-    .category-name{font-size:35px;color:black; box-shadow: 2px 2px 2px 5px aqua;}
+    .category-name{font-size:35px;color:black; text-shadow:turquoise 5px 2px 4px;}
     .container{ display: flex; justify-content: center;}
     .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
             margin: 10px; border-radius: 15px; margin-bottom: 80px;}

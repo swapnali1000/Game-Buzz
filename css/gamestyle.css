@@ -1,21 +1,80 @@
     .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:0px;
         margin-top:0px;padding: 0;box-sizing: border-box;}
 
-    .nav-bar{background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047);
-        position: fixed;width:1060px; height:50px;margin-top: -20px;}
-    .logo-img{height:70px; width:75px;margin-bottom:50px;} 
-    nav{display: flex;align-items:center;justify-content: space-between;
-        padding-top: 40px; padding-left: 10%;padding-right: 10%;
-        position: fixed; box-shadow: 2px 15px 20px 12px black;}
-    .header-name{display: flex;margin-left: 20px;margin-right: 40px;}
-    .anchor-tag-nav{text-decoration: none;font-size: 20px;color: blue;}
+    .navbar{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+        margin-bottom: 30px;
+    }
+    .nav-list{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+        
+    
+    }
+    .nav-list li{
+        list-style: none;
+        padding: 15px 30px;
+    
+    }
+    
+    .nav-list li a{
+        text-decoration: none;
+        color: white;
+    }
+    .nav-list li a:hover{
+        color: rgb(12, 248, 197);
+    
+    }    
+    
+    .rightNav{ 
+        width: 20%;
+        text-align: right;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .background{
+    
+        background-size: cover;
+        background-blend-mode: darken;
+        background-color:rgba(0,0,0,0.6);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+    
+    }
+    
+    
+    .text-big{
+    font-size: 35px;
+    font-style: oblique 40deg;
+    
+    }
+    
+    .text-small{
+    font-size: 20px;
+    
+    }
 
-    .category-name{font-size:35px;color:black; text-shadow:turquoise 5px 2px 4px;padding-top:100px;}
+    .category-name{font-size:35px;color:black;padding-top:20px;}
     .container{ display: flex; justify-content: center;}
 
-    .card{ background-color: rgb(240, 195, 141);height: 410px; width: 220px;
-            margin: 10px; border-radius: 20px; margin-bottom: 80px;
-        box-shadow: 4px 4px 4px 4px black;}
+    .card{ background-color: rgb(245, 221, 192);height: 410px; width: 220px;
+            margin: 10px; border-radius: 20px; margin-bottom: 80px;}
     .card:hover{transition: 1s;transform: scale(1.05);background: linear-gradient(black,rgb(117, 192, 199));
     border-radius:10px;}
     
@@ -175,15 +234,37 @@
         background-repeat: no-repeat;background-position: center;background-size: cover;
                 }
 
-    .container-2{max-width:2000px; margin: auto; margin-left:200px;}    
-    .footer{background-color:#24262b;padding:15px 0px; box-shadow:-15px -10px 20px 5px  black;} 
-    .footer-col{width:25%;padding: 0px 15px; margin-bottom: 40px;} 
-    .footer-col h4{font-size: 20px; color:black;}
-    .row{display: flex;flex-wrap: wrap;}
-    .h4{font-size: 25px;}
-    ul{list-style: none;}
-    .body-footer-img{height: 25px;}
-    .fotter-anchor{text-decoration: none;font-size: 20px;}
+                .footer{
+                    max-width: 70%;
+                    margin: 1rem auto;
+                    overflow: auto;
+                    
+                    background: rgb(2,0,36);
+                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+                    padding-left: 430px;
+                    padding-bottom: 100px;
+                    padding-top: 50px;
+                }
+                
+                .footer ,
+                .footer a{
+                    color: #fbfefe;
+                    font-size: 0.9rem;
+                }
+                
+                .footer p{
+                    margin-bottom: 1.5rem;
+                }
+                
+                .footer .footer-cols{
+                    display: grid;
+                    grid-template-columns: repeat(4 , 1fr);
+                    grid-gap: 2rem;
+                }
+                
+                .footer li{
+                    line-height: 2.4;
+                }
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
         

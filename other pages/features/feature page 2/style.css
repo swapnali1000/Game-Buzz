@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color:rgb(251, 250, 250);
+    font-size: 20px;
+    
+}
+.nav-list li a:hover{
+    color: rgb(100, 13, 241);
+    
+}    
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+.background{
+
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(9, 8, 8, 0.6);
+    font-family: "poppins" ,sans-serif;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+
+
+    
+}
+
+
+.text-big{
+font-size: 45px;
+color: #023b69;
+}
+
+.text-small{
+font-size: 20px;
+color: #226195;
+
+}
+
+
+
+
+/*video div and header section*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(eco-mode-feature-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50  px;
+    background-size: 100%;
+    padding-bottom: 110px;
+    
+    
+    
+  }
+  
+  #text {
+    font-size: 24px;
+    margin-bottom: 80px;
+    padding-right: 300px;
+    color: rgb(229, 233, 233);
+    margin-left: 10px;
+    margin-top:100px;
+
+  }
+
+  
+  #video {
+    padding-left: 800px;
+    width: 640px;
+    height: 360px;
+  }
+
+
+
+/* 2 section*/
+.column {
+    float: left;
+    width: 33%;
+    padding: 40px;
+    height: 320px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    justify-content: space-between;
+  }
+.text{
+    font: 1em sans-serif;
+    color: #226195;
+
+}
+
+h1{
+    color: #fafafd;
+
+
+}
+h2{
+    color: rgb(6, 47, 159);
+}
+p{
+    color: #0a4678;
+    font-size: 20px;
+
+}
+h4{
+    color: azure;
+}
+
+
+
+
+/* 2 section*/
+
+
+
+
+
+
+
+
+
+
+
+
+.section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 903%;
+    margin:auto;
+    box-shadow: inset;
+
+
+
+}
+.section-left{
+  flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 10px 65px;
+    max-width: 100%;
+    
+}
+
+.imgFluid{
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #ea64be;
+
+}
+
+/* used to change font */
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+    max-width: 100%;
+    margin: 1rem auto;
+    overflow: auto;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-right: 300px;
+}
+
+.footer ,
+.footer a{
+    color: #fbfefe;
+    font-size: 0.9rem;
+}
+
+.footer p{
+    margin-bottom: 1.5rem;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+}
+
+
+
+
+
+
+
+
+
+
+

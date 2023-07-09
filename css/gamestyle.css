@@ -1,30 +1,28 @@
+    .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:0px;
+    padding: 0;box-sizing: border-box;}
+    .container{ display: flex; justify-content: center;}
 
+    .card{ background-color: rgb(240, 195, 141);height: 420px; width: 220px;
+            margin: 10px; border-radius: 15px;}
 
-.body{ background-color: beige;}
-
-.container-1{ display: flex; justify-content: center;}
-
-.card{ background-color: bisque;height: 400px; width: 250px;
-       margin: 10px; border-radius: 15px;}
-
-.card-image{background-color: aquamarine;height: 200px;
-    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
-    background-size: cover;}
+    .card-image{background-color: aquamarine;height: 200px;
+                margin-bottom:8px; border-radius: 15px; background-repeat:round;
+                background-size: cover;}
     
-.game-name{margin-left:10px;}
-.card-image{background-color: aquamarine;height: 200px;
-    margin-bottom: 15px; border-radius: 15px; background-repeat:round;
-    background-size: cover;}
-.among-us{ background-image: url('Among-Us.jfif'); }
-.star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
-.half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
-.company-name{ position: relative;top:-28px;margin-left: 10px;}
-.download{background-color:aquamarine;text-align: center; width:160px;
-    font-size: 30px;border-radius:20px;position: relative;top:-10px;
-    margin-left: auto;margin-right: auto;}
-.anchor-tag{ text-decoration: none;color: black;}
-.about-body-among-us{ background: url("background-among-us.jpg") ;
-    background-repeat: no-repeat; background-size:cover;}
+    .game-name{margin-left:10px;}
+    .card-image{background-color: aquamarine;height: 200px;        
+               margin-bottom: 15px; border-radius: 15px; background-repeat:round;
+               background-size: cover;}
+    .among-us{ background-image: url('../img/Among-Us.jfif'); }
+    .star-img{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+    .half-star{ width:20px;position: relative;top:-20px;margin-left: 10px;}
+    .company-name{ position: relative;top:-28px;margin-left: 10px;}
+    .download{background-color:aquamarine;text-align: center; width:160px;
+          font-size: 30px;border-radius:20px;position: relative;top:-20px;
+          margin-left: auto;margin-right: auto;}
+    .anchor-tag{ text-decoration: none;color: black;}
+    .about-body-among-us{ background: url("../img/background-among-us.jpg") ;
+                         }
     .heading-1{margin:25px; font-size: 40px;color: rgb(95, 170, 236);}   
     .heading{ margin:25px; font-size: 25px;color: aliceblue; }   
     .about-game-information{ text-align:justify; margin:50px; font-size:22px; color: aliceblue;}
@@ -32,13 +30,104 @@
         font-size: 50px;border-radius:20px;position: relative;bottom: -50px;
         margin-left: auto;margin-right: auto;}
     .anchor-about-download{text-decoration: none;color: black;}
-    .footer-img{display: flex; height: 200px; 
-        margin:100px;margin-left: -25px;}
-    .COD{ background-image: url('callofduty-card-img.jfif'); }
-    .undawn{ background-image: url('undawn-card-img.webp'); }   
-    .DOZ{ background-image: url('DOZ-card-img.webp'); }
-    .pubg{ background-image: url('pubg-card-img.webp'); }
-    .about-body-COD{background: url("background-img-cod.jfif") ;
-        background-repeat: no-repeat; background-size:cover;}
-    .about-body-undawn{ background: url('undawn-background-img.jfif');
-        background-repeat: no-repeat; background-size:cover;}
+    .anchor-about-download:hover{color: red;}
+    .footer-img{display: flex;width: 100px; height: 180px;
+         margin:90px;margin-left: -25px;}
+    .COD{ background-image: url('../img/callofduty-card-img.jfif'); }
+    .undawn{ background-image: url('../img/undawn-card-img.webp'); }   
+    .DOZ{ background-image: url('../img/DOZ-card-img.webp'); }
+    .pubg{ background-image: url('../img/pubg-card-img.webp'); }
+    .about-body-COD{background: url("../img/background-img-cod.jfif") ;
+        }
+    .about-body-undawn{ background: url('../img/undawn-background-img.jfif');
+        }
+    .about-body-DOZ{background: url('../img/DOZ-background-img.jfif');
+       }   
+    .about-body-pubg{background: url('../img/pubg-backgroung-img.jfif');
+        }
+
+    .FE{ background: url('../img/FE-card-img.png');background-size: cover;}
+    .AG{background: url('../img/AG-card-img.png');background-size: cover;}
+    .C{background: url('../img/C-card-img.png');background-size: cover;}
+    .DL{background: url('../img/DL-card-img.png');background-size: cover;}
+    .LU{background: url('../img/LU-card-img.png');background-size: cover;}  
+    
+    .upcoming{font-size: 25px;text-align: center;}
+    .anchor-tag-upcoming{text-decoration: none; color: blue;}
+
+    .HP{background-image: url('../img/harrypotter-card-img.jfif')}
+    .disorder{background-image: url('../img/disorder-card-img.jfif')}
+    .ROD{background-image: url('../img/ROD-card-img.jfif')}
+    .CI{background-image: url('../img/chibi-card-img.jfif')}
+    .HC{background-image: url('../img/HC-card-img.jfif')}
+
+    .SS{background-image:url('../img/SS-card-img.jfif');}
+    .AB{background-image:url('../img/AB-card-img.jfif');}
+    .CE{background-image:url('../img/CE-card-img.jfif');}
+    .MC{background-image:url('../img/MC-card-img.jfif');}
+    .BJ{background-image:url('../img/BJ-card-img.jfif');}
+
+    .AN{background-image:url('../img/AN2-card-img.jfif');}
+    .TR{background-image:url('../img/TR-card-img.jfif');}
+    .AR{background-image:url('../img/AR-card-img.jfif');}
+    .DD{background-image:url('../img/DD-card-img.jfif');}
+    .TB{background-image:url('../img/TB-card-img.jfif');}
+
+    .OH{background-image:url('../img/OH-card-img.jfif');}
+    .BD2{background-image:url('../img/BD2-card-img.jpg');}
+    .HIT2{background-image:url('../img/HIT2-card-img.jpg');}
+    .SC{background-image:url('../img/SC-card-img.webp');}
+    .DS3{background-image:url('../img/DS3-card-img.webp');}
+
+    .about-body-HP{ background: url('../img/harrypotter-background-img.jfif');
+    }
+    .about-body-DS{ background: url('../img/disorder-background-img.jfif');
+            }
+    .about-body-ROD{ background: url('../img/ROD-background-img.jfif');
+                     } 
+    .about-body-CI{ background: url('../img/chibi-background-img.jfif');
+                    } 
+    .about-body-HC{ background: url('../img/HC-background-img.jfif');
+                    }
+    .about-body-SS{ background: url('../img/SS-background-img.jfif');
+                 }
+    .about-body-AB{ background: url('../img/AB-background-img.jfif');
+                 }
+    .about-body-CE{ background: url('../img/CE-background\ -img.jfif');
+                }
+    .about-body-MC{ background: url('../img/MC-background-img.jfif');
+                }
+    .about-body-BJ{ background: url('../img/BJ-background-img.jfif');
+                   }
+    .about-body-AN{ background: url('../img/AN2-bckg-img.jpg');
+                   }
+    .about-body-TR{ background: url('../img/TR-bckg-img.jfif');
+               }
+    .about-body-AR{ background: url('../img/AR-bckg-img.jfif');
+                }
+    .about-body-DD{ background: url('../img/DD-bckg-img.jfif');
+                }
+    .about-body-TB{ background: url('../img/TB-bckg-img.jfif');
+               }
+    .about-body-OH{ background: url('../img/OH-bckg-img.jfif');
+                  }
+    .about-body-BD2{ background: url('../img/BD2-bckg-img.jfif');
+                  }
+    .about-body-HIT{ background: url('../img/HIT2-bckg-img.jfif');
+                 }
+    .about-body-SC{ background: url('../img/SC-bckg-img.jfif');
+                 }
+    .about-body-DS3{ background: url('../img/DS3-bckg-img.jfif');
+                }
+
+    .container-2{max-width:2000px; margin: auto;}    
+    .footer{background-color:#24262b;padding:15px 0px;} 
+    .footer-col{width:25%;padding: 0px 15px;} 
+    .footer-col h4{font-size: 20px; color:black;}
+    .row{display: flex;flex-wrap: wrap;}
+    ul{list-style: none;}
+    .body-footer-img{height: 25px;}
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        

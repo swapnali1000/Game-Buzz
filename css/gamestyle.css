@@ -1,5 +1,7 @@
-    .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:0px;
+    
+    .body{ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);margin-bottom:0px;
         margin-top:0px;padding: 0;box-sizing: border-box;}
+<<<<<<< HEAD
 
     .navbar{
         display:flex;
@@ -15,64 +17,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+=======
+       
+>>>>>>> bd5373e44e90e2ba5ca12b7513e2f6a4fb6e0a09
     
-    
-        
-    
-    }
-    .nav-list li{
-        list-style: none;
-        padding: 15px 30px;
-    
-    }
-    
-    .nav-list li a{
-        text-decoration: none;
-        color: white;
-    }
-    .nav-list li a:hover{
-        color: rgb(12, 248, 197);
-    
-    }    
-    
-    .rightNav{ 
-        width: 20%;
-        text-align: right;
-    }
-    .logo{height:60px;width:60px;
-         margin-left: -150px;
-         margin-right: 200px;}
-    
-    
-    
-    
-    
-    
-    
-    .background{
-    
-        background-size: cover;
-        background-blend-mode: darken;
-        background-color:rgba(0,0,0,0.6);
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        backdrop-filter: blur(8px);
-        box-shadow: 0 20px 30px rgba(0,0,0,0.15);
-    
-    }
-    
-    
-    .text-big{
-    font-size: 35px;
-    font-style: oblique 40deg;
-    
-    }
-    
-    .text-small{
-    font-size: 20px;
-    
-    }
-      .upper-container{display: flex;}
-    .category-name{font-size:35px;color:black;padding-top:25px;}
+      .upper-container{display: flex;margin-left: 50px;}
+     
+    .category-name{font-size:35px;color:white;padding-top:120px;margin-left: 30px;}
     .container{ display: flex; justify-content: center;}
 
     .card{background-color: antiquewhite;height: 410px; width: 220px;
@@ -80,7 +31,7 @@
     .card:hover{transition: 1s;transform: scale(1.05);background: linear-gradient(black,rgb(117, 192, 199));
     border-radius:10px;}
     
-    hr{box-shadow: 2px 2px 2px 2px thistle;margin-bottom:-40px;}
+    hr{box-shadow: 2px 2px 2px 2px thistle;margin-bottom:-100px;}
 
     .card-image{background-color: aquamarine;height: 200px;
                 margin-bottom:8px; border-radius: 15px; background-repeat:round;
@@ -236,38 +187,19 @@
         background-repeat: no-repeat;background-position: center;background-size: cover;
                 }
 
-                .footer{
-                    max-width: 70%;
-                    margin: 1rem auto;
-                    overflow: auto;
-                    
-                    background: rgb(2,0,36);
-                    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
-                    padding-left: 430px;
-                    padding-bottom: 100px;
-                    padding-top: 50px;
-                }
-                .fotter-pragraph{font-size: 20px;}
-                .footer a{
-                    color: #fbfefe;
-                    font-size: 0.9rem;
-                }
-                
-                .footer p{
-                    margin-bottom:5px;
-                    padding-bottom: 10px;
-                }
-                
-                .footer .footer-cols{
-                    display: grid;
-                    grid-template-columns: repeat(4 , 1fr);
-                    grid-gap: 2rem;
-                    margin-left: -350px;
-                }
-                
-                .footer li{
-                    line-height: 2.4;
-                }
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-        
+    .footer{background-color: #101216;}            
+    .footer-container{max-width: 1180px; padding: 30px;padding-top: 20px;}
+    .footer-col{width: 25%;padding: 0px 18px;margin-right: 70px;}   
+    .footer-col h4{font-size: 20px; color:#fffffF;
+                  text-transform: capitalize;margin-bottom: 30px;
+                   position: relative;margin-right: 30px;}                       
+    .row{display: flex;margin-right:80px;}  
+    .footer-col ul li a{ font-size: 18px; text-transform: capitalize;
+                        color: #ffffff;text-decoration: none;
+                        font-weight: 300;color:#bbbbbb;display: block;
+                        transition: all 0.3s ease ;} 
+    .footer-col ul li a:hover{ color: #ffffff; padding-left:8px; ;}  
+    .footer-col .social-link-img{
+        display:inline-flex;height:30px;width:30px;;margin-right:14px;
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+   

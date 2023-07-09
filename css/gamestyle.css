@@ -1,7 +1,25 @@
     
     .body{ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);margin-bottom:0px;
         margin-top:0px;padding: 0;box-sizing: border-box;}
+<<<<<<< HEAD
+
+    .navbar{
+        display:flex;
+        align-items: center;
+        justify-content: right;
+        top: 0;
+        cursor: pointer;
+        margin-bottom: 30px;
+        
+    }
+    .nav-list{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+=======
        
+>>>>>>> bd5373e44e90e2ba5ca12b7513e2f6a4fb6e0a09
     
       .upper-container{display: flex;margin-left: 50px;}
      

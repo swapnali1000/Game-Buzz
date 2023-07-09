@@ -1,61 +1,11 @@
-    .body{ background:linear-gradient(to right,rgb(149, 149, 243) 1%,black , #b30047); margin-bottom:0px;
+    
+    .body{ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);margin-bottom:0px;
         margin-top:0px;padding: 0;box-sizing: border-box;}
-
-    .navbar{
-        display:flex;
-        align-items: center;
-        justify-content: right;
-        top: 0;
-        cursor: pointer;
-        margin-bottom: 30px;}
-    .nav-list{
-        width: 70%;
-        display: flex;
-        justify-content: center;
-        align-items: center;}
-    .nav-list li{
-        list-style: none;
-        padding: 15px 30px;}
+       
     
-    .nav-list li a{ font-size: 20px;
-        text-decoration: none;
-        color: white; }
-    .nav-list li a:hover{
-        color: rgb(12, 248, 197);
-    }    
-    
-    .rightNav{ 
-        width: 20%;
-        text-align: right;
-}
-    .logo{height:60px;width:60px;
-         margin-left: -150px;
-         margin-right: 200px;}
-    .background{
-     background-size: cover;
-        background-blend-mode: darken;
-        background-color:rgba(0,0,0,0.6);
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        backdrop-filter: blur(8px);
-        box-shadow: 0 20px 30px rgba(0,0,0,0.15); }
-    
-    
-    .text-big{
-    font-size: 35px;
-    font-style: oblique 40deg;
-    }
-    .Subscriber-btn{background-color: white; font-size: 20px;
-        border: solid 3px black;margin-right:25px;
-        cursor:pointer;}
-    .Subscriber-btn:hover{background: black; color: white;
-    border: solid 3px white;}
-
-    .text-small{
-    font-size: 20px;
-    
-    }
-      .upper-container{display: flex;}
-    .category-name{font-size:35px;color:black;padding-top:25px;}
+      .upper-container{display: flex;margin-left: 50px;}
+     
+    .category-name{font-size:35px;color:white;padding-top:120px;margin-left: 30px;}
     .container{ display: flex; justify-content: center;}
 
     .card{background-color: antiquewhite;height: 410px; width: 220px;
@@ -63,7 +13,7 @@
     .card:hover{transition: 1s;transform: scale(1.05);background: linear-gradient(black,rgb(117, 192, 199));
     border-radius:10px;}
     
-    hr{box-shadow: 2px 2px 2px 2px thistle;margin-bottom:-40px;}
+    hr{box-shadow: 2px 2px 2px 2px thistle;margin-bottom:-100px;}
 
     .card-image{background-color: aquamarine;height: 200px;
                 margin-bottom:8px; border-radius: 15px; background-repeat:round;
@@ -219,8 +169,8 @@
         background-repeat: no-repeat;background-position: center;background-size: cover;
                 }
 
-    .footer{background-color: #24262b;}            
-    .footer-container{max-width: 1180px;}
+    .footer{background-color: #101216;}            
+    .footer-container{max-width: 1180px; padding: 30px;padding-top: 20px;}
     .footer-col{width: 25%;padding: 0px 18px;margin-right: 70px;}   
     .footer-col h4{font-size: 20px; color:#fffffF;
                   text-transform: capitalize;margin-bottom: 30px;

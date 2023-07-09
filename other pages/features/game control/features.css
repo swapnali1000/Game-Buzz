@@ -11,8 +11,8 @@
 :root {
 	--primary-text-color: #f0f4f7;
     --secondary-text-color: #fdfdfe;
-    --accent-color: #0cf5f9;
-    --accent-color-dark: #fe06e5;
+    --accent-color: #ee09d7;
+    --accent-color-dark: #52e6f0;
     --padding-inline-section: 20px;
 }
 
@@ -20,7 +20,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--primary-text-color);
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
     
 }
 
@@ -90,7 +90,7 @@ ul {
     background-color: var(--accent-color);
     border-radius: 6px;
     font-weight: 700;
-    color: rgb(255, 252, 252) !important;
+    color: rgb(254, 248, 248) !important;
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;

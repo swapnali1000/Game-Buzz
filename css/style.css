@@ -276,7 +276,7 @@ body{
     background-image: url(../img/artefacts-features.png);
     background-size: cover;
     background-repeat: no-repeat;
-    *padding: 100px;
+    padding: 100px;
     padding-top: 100px;
 }
 .footerchild {

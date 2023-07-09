@@ -252,7 +252,8 @@ img {
 
 .cta-section {
     padding: 120px var(--padding-inline-section) 80px;
-    background-color: #023b69;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+    
 }
 
 .cta-section-container p {
@@ -269,7 +270,7 @@ img {
     overflow: auto;
     
     background: rgb(2,0,36);
-     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
     padding-left: 150px;
     padding-bottom: 80px;
     padding-top: 50px;
@@ -556,7 +557,10 @@ img {
 
 .cta-section {
     padding: 120px var(--padding-inline-section) 80px;
-    background-color: #023b69;
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+
+
 }
 
 .cta-section-container p {
@@ -573,7 +577,7 @@ img {
     overflow: auto;
     
     background: rgb(2,0,36);
-     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,166,217,1) 0%, rgba(4,106,185,1) 0%, rgba(6,65,158,1) 0%, rgba(9,150,150,1) 0%, rgba(76,7,35,1) 0%, rgba(6,48,97,1) 0%, rgba(9,9,121,1) 0%, rgba(5,81,168,1) 39%, rgba(15,237,201,1) 100%, rgba(0,212,255,1) 100%);
     padding-left: 150px;
     padding-bottom: 80px;
     padding-top: 40px;

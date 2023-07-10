@@ -62,7 +62,7 @@ body{
     border: solid #fff 2px;
 }
 
-/*@media screen and(min-width:768px ){
+@media screen and(min-width:768px ){
     .imgdivision{
         width:768px;
     }
@@ -78,7 +78,7 @@ body{
         margin-left: 50px;
         border-radius: 5px;
     }
-}  */
+}  
 /* GAME CARDS CSS */
 .s1{
     height: 700px;

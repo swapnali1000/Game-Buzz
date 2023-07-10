@@ -35,7 +35,7 @@ body{
     height: 900px;
     width: 1519px;
     position:relative;
-    top: 5px;
+    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,7 +62,7 @@ body{
     border: solid #fff 2px;
 }
 
-@media screen and(min-width:768px ){
+/*@media screen and(min-width:768px ){
     .imgdivision{
         width:768px;
     }
@@ -78,7 +78,7 @@ body{
         margin-left: 50px;
         border-radius: 5px;
     }
-}  
+}  */
 /* GAME CARDS CSS */
 .s1{
     height: 700px;
@@ -269,12 +269,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     background-color:#253162;
-    height: 300px;
+    height: 500px;
     color: #fff;
     background-image: url(../img/artefacts-features.png);
     background-size: cover;
     background-repeat: no-repeat;
-    *padding: 100px;
     padding-top: 100px;
 }
 .footerchild {
@@ -298,7 +297,12 @@ body{
 .footerchild a:hover {
     text-decoration: underline;
 }
-
+.footerchild .social-link-img {
+    display: inline-flex;
+    height: 30px;
+    width: 30px;
+    margin-right: 14px;
+}
 
 
 

@@ -1,26 +1,35 @@
     .body {
-        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+        background:linear-gradient(to bottom, #0066cc 0%, #66ffff 100%);;
         margin-bottom: 0px;
         margin-top: 0px;
-        padding: 0;
+        padding-right:100px;
+        width: 1519px;
         box-sizing: border-box;
     }
-
-     HEAD .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: right;
+    .division{
+        background-color: rgb(0, 0 , 0 ,0.5);
+        padding: 20px;
+        width:100%;
+        z-index: 1;
+        position: fixed;
+        display: flex;  
         top: 0;
-        cursor: pointer;
-        margin-bottom: 30px;
-
+        justify-content: space-evenly; 
     }
-
-    .nav-list {
-        width: 70%;
-        display: flex;
+    .division img{
+        width: 120px;
+    }
+    .block{
+        color: #fff;
+        text-decoration: none;
         justify-content: center;
-        align-items: center;}
+        align-items: center;
+        padding: 5px;
+        font-size: 25px;
+    }
+    .block:hover{
+        transition:1s;
+    }
     .upper-container {
             display: flex;
             margin-left: 50px;

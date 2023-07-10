@@ -62,23 +62,7 @@ body{
     border: solid #fff 2px;
 }
 
-/*@media screen and(min-width:768px ){
-    .imgdivision{
-        width:768px;
-    }
-    .imgdivision img{
-        width: 100px;
-        margin-left: 100px;
-    }
-    .imgdivision button{
-        width: 100px;
-        padding: 10px;
-        font-size:25px;
-        margin-top: 30px;
-        margin-left: 50px;
-        border-radius: 5px;
-    }
-}  */
+
 /* GAME CARDS CSS */
 .s1{
     height: 700px;
@@ -100,12 +84,10 @@ body{
     text-align: center;
 }
 .paragraph{
-    color:black;
     font-size: 40px;
     margin-left: 10px;   
 }
 .paragraph1{
-    color:rgb(50, 48, 48);
     font-size:30px;
     margin-top: 5px;
 }
@@ -306,7 +288,99 @@ body{
 
 
 
-
+@media screen and(min-width:768px ){
+    .imgdivision{
+        width:768px;
+    }
+    .imgdivision img{
+        width: 100px;
+        margin-left: 100px;
+    }
+    .imgdivision button{
+        width: 100px;
+        padding: 10px;
+        font-size:25px;
+        margin-top: 30px;
+        margin-left: 50px;
+        border-radius: 5px;
+    }
+    .s1{
+        height: 500px;
+        width: 768px;
+    }
+    .maindiv{
+        top: 25px;
+    }
+    .paragraph{
+        font-size: 25px;
+        margin-left: 5px;   
+    }
+    .paragraph1{ 
+        font-size:20 px;
+    }
+    .container{
+        padding:20px;
+    }
+    .card
+    {
+        width:200px;
+        position:relative; 
+        border-radius: 15px;
+        border: solid black 5px;
+        overflow: hidden;
+    }
+    .card1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        background-color: rgb(0,0,0,0.8);
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        box-sizing: border-box;
+        transition: all 0.5s;    
+    }
+    .card:hover .card1{
+        top:0%;
+    }
+    .cardi{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .card1 img{
+        width: 150px;
+        
+    }
+    .card1 button{
+        width:150px;
+        height: 50px;
+        font-weight: 100;
+        font-size: 20px;
+        color: black;
+        border-radius: 20px;
+        border: none;
+    }
+    .Explore{
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        color: #fff;
+        border: #fff solid 3px;
+        font-size: 20px;
+        background-color: #021234;
+        cursor: pointer;
+    }
+    .Explore:hover{
+        background-color: #97e97c;
+    }
+}  
 
 
   

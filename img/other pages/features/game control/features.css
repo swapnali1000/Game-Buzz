@@ -301,9 +301,9 @@ img {
 }
 
 /*media query section*/
-@media screen and (max-width:991px) {
+@media screen and (max-width:991px){
     
-}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -606,6 +606,6 @@ img {
     line-height: 2.4;
     
 }
-
+}
 
 

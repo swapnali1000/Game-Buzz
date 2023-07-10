@@ -6,7 +6,7 @@
         box-sizing: border-box;
     }
 
-    <<<<<<< HEAD .navbar {
+     HEAD .navbar {
         display: flex;
         align-items: center;
         justify-content: right;
@@ -20,9 +20,8 @@
         width: 70%;
         display: flex;
         justify-content: center;
-        align-items: center;
-
-        =======>>>>>>>bd5373e44e90e2ba5ca12b7513e2f6a4fb6e0a09 .upper-container {
+        align-items: center;}
+    .upper-container {
             display: flex;
             margin-left: 50px;
         }
@@ -537,27 +536,28 @@
 
         .footer {
             background-color: #101216;
+           
         }
 
         .footer-container {
-            max-width: 1180px;
-            padding: 30px;
+            max-width: 1150px;
+            padding: 39px;
             padding-top: 20px;
         }
 
         .footer-col {
-            width: 25%;
+            width: 50%;
             padding: 0px 18px;
-            margin-right: 70px;
+            margin-right: 80px;
         }
 
         .footer-col h4 {
-            font-size: 20px;
+            font-size: 28px;
             color: #fffffF;
             text-transform: capitalize;
-            margin-bottom: 30px;
+            margin-bottom:30px;
             position: relative;
-            margin-right: 30px;
+            margin-right: 60px;
         }
 
         .row {
@@ -579,13 +579,12 @@
         .footer-col ul li a:hover {
             color: #ffffff;
             padding-left: 8px;
-            ;
+            
         }
 
         .footer-col .social-link-img {
             display: inline-flex;
             height: 30px;
             width: 30px;
-            ;
             margin-right: 14px;
         }
